@@ -3,7 +3,7 @@ import booksss from '../Photos/booksss.png'
 
 import CategoryCard from '../Components/CategoryCard'
 import fiction from '../Photos/fiction.jpg'
-import nonFiction from '../Photos/nonFiction.jpg'
+import nonFiction from '../Photos/nonfiction.jpg'
 import sciencefiction from '../Photos/sciencefiction.jpeg'
 import selfhelp from '../Photos/selfhelp.jpg'
 import mystrythriller from '../Photos/mystrythriller.webp'
