@@ -4,7 +4,7 @@ import Header from './Components/Header'
 import Home from './Pages/Home'
 import Fiction from './Pages/Fiction'
 import Nonfiction from './Pages/Nonfiction'
-import ScienceFiction from './Pages/ScienceFiction'
+import Sciencefiction from './Pages/Sciencefiction'
 import Mystrythriller from './Pages/Mystrythriller'
 import Selfhelp from './Pages/Selfhelp'
 import Biography from './Pages/Biography'
@@ -18,8 +18,8 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/fiction' element={<Fiction />} />
-          <Route path='/non-fiction' element={<Nonfiction />} />
-          <Route path='/science-fiction' element={<Sciencefiction />} />
+          <Route path='/nonfiction' element={<Nonfiction />} />
+          <Route path='/sciencefiction' element={<Sciencefiction />} />
           <Route path='/mysterythriller' element={<Mystrythriller />} />
           <Route path='/selfhelp' element={<Selfhelp />} />
           <Route path='/biography' element={<Biography />} />
