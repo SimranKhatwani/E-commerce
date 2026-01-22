@@ -18,8 +18,8 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/fiction' element={<Fiction />} />
-          <Route path='/non-fiction' element={<NonFiction />} />
-          <Route path='/science-fiction' element={<ScienceFiction />} />
+          <Route path='/non-fiction' element={<Nonfiction />} />
+          <Route path='/science-fiction' element={<Sciencefiction />} />
           <Route path='/mysterythriller' element={<Mystrythriller />} />
           <Route path='/selfhelp' element={<Selfhelp />} />
           <Route path='/biography' element={<Biography />} />
