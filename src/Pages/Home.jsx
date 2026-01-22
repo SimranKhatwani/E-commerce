@@ -1,19 +1,19 @@
 import React from 'react'
-import booksss from '../photos/booksss.png'
+import booksss from '../Photos/booksss.png'
 
 import CategoryCard from '../Components/Categorycard'
-import fiction from '../photos/fiction.jpg'
-import nonFiction from '../photos/nonFiction.jpg'
-import sciencefiction from '../photos/sciencefiction.jpeg'
-import selfhelp from '../photos/selfhelp.jpg'
-import mystrythriller from '../photos/mystrythriller.webp'
-import biography from '../photos/biography.jpg'
+import fiction from '../Photos/fiction.jpg'
+import nonFiction from '../Photos/nonFiction.jpg'
+import sciencefiction from '../Photos/sciencefiction.jpeg'
+import selfhelp from '../Photos/selfhelp.jpg'
+import mystrythriller from '../Photos/mystrythriller.webp'
+import biography from '../Photos/biography.jpg'
 
 import BookCard from '../Components/BookCard'
-import fictionbookk from '../photos/fictionbookk.jpeg' 
-import atomichabits from '../photos/atomichabits.jpg'
-import thediaryofyounggirl from '../photos/thediaryofyounggirl.jpg'
-import thursdaymurderclub from '../photos/thursdaymurderclub.jpg' 
+import fictionbookk from '../Photos/fictionbookk.jpeg' 
+import atomichabits from '../Photos/atomichabits.jpg'
+import thediaryofyounggirl from '../Photos/thediaryofyounggirl.jpg'
+import thursdaymurderclub from '../Photos/thursdaymurderclub.jpg' 
 
 
 const Home = () => {
