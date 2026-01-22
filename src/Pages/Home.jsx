@@ -1,7 +1,7 @@
 import React from 'react'
 import booksss from '../Photos/booksss.png'
 
-import CategoryCard from '../Components/Categorycard'
+import CategoryCard from '../Components/CategoryCard'
 import fiction from '../Photos/fiction.jpg'
 import nonFiction from '../Photos/nonFiction.jpg'
 import sciencefiction from '../Photos/sciencefiction.jpeg'
