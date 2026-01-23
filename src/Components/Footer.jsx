@@ -10,15 +10,15 @@ const Footer = () => {
         about new arrivals</p>
     </div>
       
-      <div className='flex'>
-     <div className='mt-16 pl-8 w-1/4'>
-        <Link to ='/' className='text-3xl font-bold text-orange-300 px-5 '> BookBazaar</Link>
+      <div className='flex flex-col md:flex-row'>
+     <div className='mt-16 pl-8 w-full md:w-1/4'>
+        <Link to ='/' className='text-2xl md:text-3xl font-bold text-orange-300 px-5 '> BookBazaar</Link>
         <p className='text-white font-normal mt-4 '>Your trusted destination for discovering <br/> amazing books. From bestsellers to <br/> hidden gems, we curate the finest <br/> collection for every reader.</p>
 
      </div>
 
 
-     <div className='w-1/4 pl-8 mt-10 '>
+     <div className='w-full md:w-1/4 pl-8 mt-10 '>
           <h3 className='text-white mt-6'> Quick Links </h3>
           <ul className='text-white mt-4  space-y-2 '>
             <li >Bestsellers</li>
@@ -30,7 +30,7 @@ const Footer = () => {
           </ul>
           </div>
 
-<div className='w-1/4 pl-8 mt-10'>
+<div className='w-full md:w-1/4 pl-8 mt-10'>
   <h3 className='text-white mt-6'> Customer Services  </h3>
           <ul className='text-white mt-4  space-y-2'>
             <li >Contact Us </li>
@@ -42,7 +42,7 @@ const Footer = () => {
            
 </div>
 
-<div className='w-1/4 pl-8 mt-10'>
+<div className='w-full md:w-1/4 pl-8 mt-10'>
   <h3 className='text-white mt-6'>Stay Connected </h3>
   <p className='text-white mt-4 text-sm'>Get the latest book recommendations and
      exclusive offers delivered to your inbox.</p>

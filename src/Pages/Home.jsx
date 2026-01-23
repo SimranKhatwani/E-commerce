@@ -19,28 +19,30 @@ import thursdaymurderclub from '../Photos/thursdaymurderclub.jpg'
 const Home = () => {
   return (
     <div >
-      <div className='flex bg-orange-50'>
+      <div className='flex flex-col md:flex-row bg-orange-50'>
       <div className='flex-1'>
-       <h1 className='text-6xl font-serif text-left mt-10 px-6'>Discover Your Next</h1>
-      <h1 className='text-6xl text-orange-600 mt-4 font-serif text-left px-6 '>Great Read</h1>
-      <p className='px-6 mt-8 text-xl text-gray-600 '>Curated collection of bestsellers, hidden gems, and literary classics.<br/> From cozy mysteries to epic adventures, find books that speak to your soul.</p>
+       <h1 className='text-4xl md:text-6xl font-serif text-left mt-10 px-6'>Discover Your Next</h1>
+      <h1 className='text-4xl md:text-6xl text-orange-600 mt-4 font-serif text-left px-6 '>Great Read</h1>
+      <p className='px-6 mt-8 text-lg md:text-xl text-gray-600 '>Curated collection of bestsellers, hidden gems, and literary classics.<br/> From cozy mysteries to epic adventures, find books that speak to your soul.</p>
       
 
+      <div className='flex flex-col sm:flex-row gap-4 mt-8 ml-6'>
       <button 
       onClick={()=> navigate ('/home')}
-      className='text-white text-xl bg-orange-400 px-6 py-3 rounded-xl mt-8 ml-6 hover:bg-orange-500 transition duration-300 ease-in-out'>
+      className='text-white text-lg md:text-xl bg-orange-400 px-6 py-3 rounded-xl hover:bg-orange-500 transition duration-300 ease-in-out'>
         Browse Collection ➡
       </button>
 
       <button
-       className='text-orange-800 text-xl bg-white px-6 py-3 rounded-xl mt-8 ml-6 border-2 border-orange-400 hover:bg-orange-100 transition duration-300 ease-in-out'>
+       className='text-orange-800 text-lg md:text-xl bg-white px-6 py-3 rounded-xl border-2 border-orange-400 hover:bg-orange-100 transition duration-300 ease-in-out'>
         View New Arrivals 
       </button>
+      </div>
       
       </div>
 
       <div>
-      <img src={booksss} alt="books"  className='w-[600px] h-[500px] mr-6 mt-4 rounded-xl object-cover '/>
+      <img src={booksss} alt="books"  className='w-full md:w-[600px] h-auto md:h-[500px] mr-6 mt-4 rounded-xl object-cover '/>
        </div>
 
       </div>
@@ -149,7 +151,7 @@ const Home = () => {
             </div>
           <button 
          onClick={()=> navigate ('/home')}
-      className= '  text-orange-800 text-sm bg-white px-6 py-3 rounded-xl mt-12 ml-6 border-2 border-orange-400 hover:bg-orange-100 transition duration-300 ease-in-out'>
+      className= '  text-orange-800 text-sm bg-white px-6 py-3 rounded-xl mt-12 mx-6 border-2 border-orange-400 hover:bg-orange-100 transition duration-300 ease-in-out'>
         View All Bestsellers Collection ➡
       </button>
 
