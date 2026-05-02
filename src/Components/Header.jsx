@@ -17,13 +17,21 @@ const Header = () => {
       {/* icons */}
 
       <div className='flex gap-4'>
-      <button className='text-xl md:text-2xl text-gray-500'>
-        👤 Account
-      </button>
-
-      <button className='text-xl md:text-2xl text-gray-500'>
-        🛒 Cart
-      </button>
+      <div className='flex gap-4'>
+  <Link 
+    to="/Account" 
+    className='text-xl md:text-2xl text-gray-500'
+  >
+    👤 Account
+  </Link>
+</div>
+   <Link 
+    to="/Cart" 
+    className='text-xl md:text-2xl text-gray-500'
+  >
+   🛒 Cart
+  </Link>
+      
       </div>
     
 </div>

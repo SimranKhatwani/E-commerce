@@ -9,6 +9,8 @@ import Mystrythriller from './Pages/Mystrythriller'
 import Selfhelp from './Pages/Selfhelp'
 import Biography from './Pages/Biography'
 import Footer from './Components/Footer'
+import Account from "./pages/Account";
+import Cart from "./pages/Cart";
 
 const App = () => {
   return (
@@ -23,6 +25,9 @@ const App = () => {
           <Route path='/mysterythriller' element={<Mystrythriller />} />
           <Route path='/selfhelp' element={<Selfhelp />} />
           <Route path='/biography' element={<Biography />} />
+          <Route path="/account" element={<Account />} />
+          <Route path="/cart" element={<Cart />} />
+
         </Routes>
         <Footer />
       </Router>
