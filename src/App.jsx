@@ -9,8 +9,8 @@ import Mystrythriller from './Pages/Mystrythriller'
 import Selfhelp from './Pages/Selfhelp'
 import Biography from './Pages/Biography'
 import Footer from './Components/Footer'
-import Account from "./pages/Account";
-import Cart from "./pages/Cart";
+import Account from "./Pages/Account";
+import Cart from "./Pages/Cart";
 
 const App = () => {
   return (
